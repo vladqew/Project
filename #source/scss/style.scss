@@ -109,6 +109,7 @@ body {
 .page__main-block { }
 .page__advantages { }
 .page__practice { }
+.page__whoweare { }
 
 .page__services {
     position: relative;
@@ -464,4 +465,123 @@ body {
     display: block;
     padding-bottom: 60%;
  }
- ._ibg { }
+
+
+
+
+/*-------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+.whoweare {
+    padding: 80px 0 130px 0;
+    @media (max-width:950px) {
+        padding: 50px 0;
+    }
+ }
+.whoweare__container { }
+.whoweare__header {
+    margin-bottom: 100px;
+ }
+.whoweare__body {
+    display: flex;
+    align-items: flex-start;
+    @media (max-width:950px) {
+        flex-direction: column-reverse;
+        align-items: stretch;
+    }
+
+ }
+.whoweare__video {
+    flex:  0 0 57%;
+    position: relative;
+    padding-bottom: 42.25%;
+    & iframe {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;   
+        object-fit: cover;
+    }
+    &:not(:last-child) {
+        margin-top: 50px;
+    }
+    @media (max-width:950px) {
+        padding-bottom: 56.25%;
+    }
+
+ }
+.whoweare__content { 
+    padding: 20px 0  0 121px;
+    flex: 1 1 auto;
+    @media (max-width:1080px) {
+        padding: 0 0 0 50px;
+    }
+    @media (max-width:992px) {
+        padding: 0 0 0 0 ;
+    }
+
+
+
+}
+.whoweare__title {
+    color: #252B42;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 142%;
+    &:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    @media (max-width:950px) {
+        font-size: 24px;
+    }
+
+ }
+.whoweare__text { 
+    color: #737373;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 143%;
+    &:not(:last-child) {
+        margin-bottom: 50px;
+    }
+}
+.whoweare__items {
+    margin-top: 50px;
+}
+.whoweare__item { }
+.item-whoweare { 
+    display: flex;
+    &:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+}
+.item-whoweare__icon {
+    flex: 0 0 32px;
+ }
+.item-whoweare__body {
+    flex: 1 1 auto;
+    padding-left: 20px;
+    &:not(:last-child) {
+        padding-bottom:  5px;
+    }
+ }
+.item-whoweare__title {
+    color: #252B42;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    &:not(:last-child) {
+        margin-bottom: 5px;
+    }
+ }
+.item-whoweare__text {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 171%;
+    color: #737373;
+ }
