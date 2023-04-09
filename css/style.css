@@ -948,3 +948,138 @@ body {
   border: 1px solid #ffffff;
   background: #FF7B47;
 }
+
+/*-------------------------------------------------------------------------------------------------------*/
+.getintouch {
+  padding: 80px 0 135px 0;
+}
+@media (max-width: 992px) {
+  .getintouch {
+    padding: 50px 0 50px 0;
+  }
+}
+
+.getintouch__header {
+  margin-bottom: 80px;
+}
+@media (max-width: 992px) {
+  .getintouch__header {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 767px) {
+  .getintouch__header {
+    margin-bottom: 30px;
+  }
+}
+
+.getintouch__items {
+  margin: 0px -15px;
+}
+@media (min-width: 992px) {
+  .getintouch__items {
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.getintouch__item {
+  padding: 50px 40px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 33.333%;
+          flex: 0 1 33.333%;
+  background: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  align-items: center;
+}
+.getintouch__item > *:not(:last-child) {
+  margin-bottom: 15px;
+}
+.getintouch__item:nth-child(2) {
+  background: #252B42;
+  color: #ffffff;
+  padding: 80px 15px;
+}
+.getintouch__item:nth-child(2) > * {
+  color: #ffffff;
+}
+.getintouch__item:nth-child(2) .item-getintouch__button {
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.getintouch__item:nth-child(2) .item-getintouch__button:hover {
+  background: #ffffff;
+  color: black;
+}
+
+.item-getintouch__mails {
+  line-height: 171.4285714286%;
+}
+
+.item-getintouch__mail {
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: inherit;
+}
+
+.item-getintouch__label {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #252B42;
+}
+
+.item-getintouch__button {
+  padding: 10px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #FF7B47;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 171%;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #FF7B47;
+  border-radius: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.item-getintouch__button:hover {
+  background: #FF7B47;
+  color: #ffffff;
+}
