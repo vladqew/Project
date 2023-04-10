@@ -114,6 +114,7 @@ body {
 .page__getintouch { 
     
 }
+.page__contact { }
 
 
 .page__services {
@@ -123,10 +124,7 @@ body {
  }
 
 /*-------------------------------------------------------------------------------------------------------*/
-.footer {
-    align-self: center;
-    justify-content: center;
-}
+
 
 /*-------------------------------------------------------------------------------------------------------*/
 
@@ -833,4 +831,196 @@ body {
         color: #ffffff;
     }
 }
+
+  /*-------------------------------------------------------------------------------------------------------*/
+
+
+.contact { 
+    background: #fff;
+    padding:40px 0;
+    margin-top: 40px;
+}
+.contact__container { }
+.contact__body {
+
+    @media (min-width:767px) {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+ }
+.contact__content {
+    padding-right: 20px;
+ }
+.contact__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 133%;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    &:not(:last-child) {
+        margin-bottom: 10px;
+    }
+ }
+.contact__text { 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+.contact__button {
+    margin-top: 20px;
+    padding: 15px 40px;
+    display: flex;
+    transition: background-color .3s ease 0s;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FF7B47;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 200%;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    &:hover {
+        background-color: #aa5330;
+    }
+
+ }
+ /*------------------------------------------------------------*/
+
+ .footer {
+
+  }
+.footer__top {
+    padding: 20px 0;
+    background-color: #17213C;
+    @media (max-width:1070px) {
+        padding: 0px 0;
+    }
+ }
+
+ .footer__column {
+    flex: 0 1 20%;
+    margin-top: 30px;
+    color: #ffffff;
+    padding: 0px 15px;
+    min-width: 215px;
+    @media (max-width:1070px) {
+        flex: 0 1 25%
+    }
+    @media (max-width:649px) {
+        flex: 0 1 50%;
+    }
+    @media (max-width: 431px) {
+        flex: 0 1 100%;
+        justify-self: center;
+    }
+
+
+
+ }
+.footer__main { 
+    
+
+}
+
+.footer__row {
+    display: flex;
+    margin: 0 -15px;
+    flex-wrap: wrap;
+}
+
+.footer__label {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.footer__menu { }
+.menu-footer { }
+.menu-footer__list { 
+    color: #ffffff;
+}
+.menu-footer__item { 
+    &:not(:last-child) {
+        margin-bottom: 20px;
+    }
+}
+.menu-footer__link { 
+    color: inherit;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.2px;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+.footer__contacts { }
+.contacts-footer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 17.5px;
+ }
+.contacts-footer__item { 
+    padding-left: 34px;
+    line-height: 142%;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    &:hover {
+        text-decoration: underline;
+    }
+    
+
+color: #FFFFFF;
+    color: inherit;
+    &:not(:last-child) {
+        margin-bottom: 10px;
+    }
+}
+.contacts-footer__item_phone {
+    background: url('/5/img/footer/icons/01.svg') left no-repeat;
+ }
+.contacts-footer__item_map { 
+    background: url('/5/img/footer/icons/02.svg') left no-repeat;
+}
+.contacts-footer__item_mail { 
+    background: url('/5/img/footer/icons/03.svg') left no-repeat;
+}
+.footer__bottom {
+    padding: 25px 0;
+ }
+.footer__container {
+    @media (min-width:767px) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+}
+.footer__copy { 
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+.footer__social {
+    @media (max-width:767px) {
+        margin-top: 30px;
+    }
+ }
+.social { }
+.social__item  {
+    &:not(:last-child) {
+        margin-right: 20px;
+    }
+
+ }
 
